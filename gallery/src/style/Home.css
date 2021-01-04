@@ -1,0 +1,28 @@
+body {
+    background-size: 100%;
+    background: url("paper.jpg") no-repeat center center fixed;
+}
+h1 {
+    text-align:center;
+}
+
+h3 {
+    text-align:center;
+}
+
+h4 {
+    text-align:center;
+}
+
+img {
+    align-content:center;
+    max-width: 75%;
+    height: auto;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+  }
