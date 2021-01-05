@@ -1,0 +1,24 @@
+figure {
+    width: 600px;
+    background-repeat: no-repeat;
+  }
+  
+  figure:hover img {
+    opacity: 0;
+  }
+  
+  img {
+    display: block;
+    width: 100%;
+    pointer-events: none;
+  }
+  
+  #root {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  
