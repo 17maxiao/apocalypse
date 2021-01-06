@@ -26,12 +26,10 @@ export default class Dashboard extends React.Component {
     return (
         <div className="Home">
           <Gallery></Gallery>
-          {/* <div classname="gallery">
-          { this.state.list.map((art) => (
+          {/* { this.state.list.map((art) => (
             // <img src={"../HomeGallery/"+artLink}></img>
             <img src={art.name}></img>
-          ))}
-          </div> */}
+          ))} */}
         </div>
     );
   }

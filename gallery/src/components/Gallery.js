@@ -166,7 +166,7 @@ class Gallery extends Component {
           wheel={wheel}
         />
 
-        <form className="properties">
+        {/* <form className="properties">
           <label style={checkboxStyle}>
             Align center
             <input
@@ -263,18 +263,8 @@ class Gallery extends Component {
               onChange={this.setItemsCount}
             />
           </label>
-        </form>
-        <hr />
-        <div>
-          <a
-            /* eslint-disable react/jsx-no-target-blank */
-            target="_blank"
-            rel="noopener"
-            href="https://github.com/asmyshlyaev177/react-horizontal-scrolling-menu"
-          >
-            Side Scrolling Project by @asmyshlyaev177 on GitHub
-          </a>
-        </div>
+        </form> */}
+
       </div>
     );
   }
