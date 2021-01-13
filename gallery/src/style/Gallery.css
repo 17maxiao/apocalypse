@@ -25,13 +25,17 @@
   .Gallery-intro {
     font-size: large;
   } */
+
+.source {
+    align-content:center;
+}
   
-  form {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-  }
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
   
   .menu-item {
     /* padding: 0; */
@@ -40,7 +44,6 @@
     user-select: none;
     cursor: pointer;
     max-width: 1200px;
-    height: auto;
     /* border: 1px transparent solid; */
   }
   .menu-item-wrapper {
@@ -66,7 +69,16 @@
   
   .img {
     padding: 0;
-    max-width: 500px; 
+    max-width: 640px; 
+  }
+  .iframe {
+    display: block;
+    width: 100%;
+    pointer-events: none;
+  }
+  .video {
+    padding: 0;
+    max-width: 640px; 
   }
 
   
