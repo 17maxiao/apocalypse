@@ -1,10 +1,9 @@
 import React from 'react'
 import Gallery from './Gallery.js'
-import ScrollText from 'react-scroll-text'
 import '../style/Home.css';
 
 
-export default class Dashboard extends React.Component {
+export default class Home extends React.Component {
   constructor(props) {
     super(props);
 
@@ -15,7 +14,6 @@ export default class Dashboard extends React.Component {
             {name: "https://images.squarespace-cdn.com/content/v1/5065261fe4b0b0c3fa5adc93/1606268226004-Z7B2FOF8KQHRRK3B5LL5/ke17ZwdGBToddI8pDm48kPT1Nkx3ySqTQzCFwVjaPQEUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2doWNX6v4NUZXVvq55gptTczsEhgvyXzBMRDIk3x86TC9JvwGh1qtNWvMhYKnvaKhbA/image-asset.jpeg?format=2500w"},
       ],
     }
-    // this.filterByTeams = this.filterByTeams.bind(this);
   }
 
   componentDidMount() {
@@ -24,7 +22,8 @@ export default class Dashboard extends React.Component {
 
   render() {    
     return (
-        <div className="Home">
+        <div>
+          <p>lksadfjlkads</p>
           <Gallery></Gallery>
           {/* { this.state.list.map((art) => (
             // <img src={"../HomeGallery/"+artLink}></img>

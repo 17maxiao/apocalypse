@@ -22,16 +22,9 @@ export default class App extends React.Component {
 								exact
 								path="/"
 								render={() => (
-									<Home />
+									<Home/>
 								)}
 							/>
-							<Route
-								exact
-								path="/home"
-								render={() => (
-									<Home />
-								)}
-							/>	
 						</Switch>
 					</Router>
 			</div>
