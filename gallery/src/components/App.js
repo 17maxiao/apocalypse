@@ -8,6 +8,7 @@ import {
 	Switch
 } from 'react-router-dom';
 import Climate from './Climate.js';
+import Mental from './Mental.js';
 
 
 export default class App extends React.Component {
@@ -29,6 +30,13 @@ export default class App extends React.Component {
 								path="/climate"
 								render={() => (
 									<Climate/>
+								)}
+							/>
+							<Route
+								exact
+								path="/mental-health"
+								render={() => (
+									<Mental/>
 								)}
 							/>
 						</Switch>

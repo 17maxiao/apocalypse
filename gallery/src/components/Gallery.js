@@ -31,7 +31,7 @@ const MenuItem = ({ type, name, artist, year, dsc, med, link }) => {
   } else if (type ==="title") {
     return <div>
       <div className="title-container">
-        <h1 class="center">CLIMATE</h1>
+        <h1 class="center">{name}</h1>
         <h2 class="center"><em>Scroll down to enter the gallery</em></h2>
         <br></br>
         <h5 class="center">Use the browser side scroll bar if gallery scroll is not showing full view</h5>
@@ -40,7 +40,7 @@ const MenuItem = ({ type, name, artist, year, dsc, med, link }) => {
   } else if (type ==="link") {
     return <div>
     <div className="end-container">
-      <h1 class="center">Next gallery: Mental Health</h1>
+      <h1 class="center">Next gallery: {name}</h1>
       <h2 class="center"><a href={link} class="white"><em>Enter here</em></a></h2>
     </div>
   </div>
