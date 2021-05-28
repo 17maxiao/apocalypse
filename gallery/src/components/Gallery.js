@@ -4,7 +4,6 @@ import HorizontalScroller from 'react-horizontal-scroll-container';
 import "../style/Gallery.css";
 import "../style/General.css";
 
-    {type: "video/mp4", name: "Herzog", artist: "ACV (he/him)", year: "2020", 
 const MenuItem = ({ type, name, artist, year, dsc, med, link }) => {
   if (type === "image") {
     return <div>
