@@ -11,6 +11,7 @@ import Climate from './Climate.js';
 import Mental from './Mental.js';
 import Pandemic from './Pandemic.js';
 import Racism from './Racism.js';
+import LGBTQ from './LGBTQ.js';
 
 
 export default class App extends React.Component {
@@ -53,6 +54,13 @@ export default class App extends React.Component {
 								path="/racism-government"
 								render={() => (
 									<Racism/>
+								)}
+							/>
+							<Route
+								exact
+								path="/lgbtq-gender"
+								render={() => (
+									<LGBTQ/>
 								)}
 							/>
 						</Switch>

@@ -30,7 +30,7 @@ export default class Racism extends React.Component {
             {link:pow1, type:"image", name:"", artist:"", year:"", med:"", dsc:""},
             {link:pow2, type:"image", name:"", artist:"", year:"", med:"", dsc:""},
             {link:pow3, type:"image", name:"", artist:"", year:"", med:"", dsc:""},
-            {link:"/racism-govnernment", type:"link", name:"LGBTQ+ & GENDER ISSUES", artist:"", year:"", med:"", dsc:""},
+            {link:"/lgbtq-gender", type:"link", name:"LGBTQ+ & GENDER ISSUES", artist:"", year:"", med:"", dsc:""},
         ],
     }
 }
