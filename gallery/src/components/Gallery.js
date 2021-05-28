@@ -9,9 +9,9 @@ const MenuItem = ({ type, name, artist, year, dsc, med, link }) => {
     return <div>
       <Zoom src={link}></Zoom>
     </div>;
-  } else if (type === "poem") {
+  } else if (type === "poetry") {
     return <div>
-      <img class="poem-img" src={link}></img>
+      <img class="poetry-img" src={link}></img>
     </div>
   } else if (type === "video/mp4" && link.includes("https://www.youtube.com/embed/")) {
     return <div>
@@ -40,7 +40,7 @@ const MenuItem = ({ type, name, artist, year, dsc, med, link }) => {
   } else if (type ==="link") {
     return <div>
     <div className="end-container">
-      <h1 class="center">Next gallery: {name}</h1>
+      <h1 class="center">Next: {name}</h1>
       <h2 class="center"><a href={link} class="white"><em>Enter here</em></a></h2>
     </div>
   </div>

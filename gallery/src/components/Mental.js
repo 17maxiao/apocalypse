@@ -28,7 +28,7 @@ export default class Mental extends React.Component {
             {link:emily1, type:"image", name:"", artist:"", year:"", med:"", dsc:""},
             {link:"", type:"text", name:"Alone", artist:"Jeanmarie Weatherhead (they/them)", year:"2020", med:"Acrylic on canvas", dsc:"Also known by their initials CJW, Jeanmarie Weatherhead’s artistic practice acts as an exploratory process of oppositional forces such as reality and illusion, desire and consequence. Alone is no exception. Painted as part of a series of works following Weatherhead’s graduation from university and influenced by the experience of the pandemic, Alone juxtaposes the comfortable with the peculiar. While the snowy, pastoral landscape is something many would be familiar with, from movies or personal experience, the darkness of the sky, lightened oddly enough by the clouds, lends a foreboding tone to the scene. Coupled with the lone figure rendered almost completely in black, save for its sad eyes, Alone demonstrates the difficulty of living isolated in a world of endless winter, one so predictable but still depressing. Still, the work leaves the viewer with some hope in the form of an oncoming car. The car illuminates the space with its headlights, and follows a road that continues out of frame, perhaps to a better place and time."},
             {link:jeanmarie1, type:"image", name:"", artist:"", year:"", med:"", dsc:""},
-            {link: "/pandemic", type:"link", name:"Pandemic", artist:"", year:"", med:"", dsc:""},
+            {link: "/pandemic", type:"link", name:"PANDEMIC", artist:"", year:"", med:"", dsc:""},
 
         ],
     }

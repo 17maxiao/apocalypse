@@ -9,6 +9,8 @@ import {
 } from 'react-router-dom';
 import Climate from './Climate.js';
 import Mental from './Mental.js';
+import Pandemic from './Pandemic.js';
+import Racism from './Racism.js';
 
 
 export default class App extends React.Component {
@@ -37,6 +39,20 @@ export default class App extends React.Component {
 								path="/mental-health"
 								render={() => (
 									<Mental/>
+								)}
+							/>
+							<Route
+								exact
+								path="/pandemic"
+								render={() => (
+									<Pandemic/>
+								)}
+							/>
+							<Route
+								exact
+								path="/racism-government"
+								render={() => (
+									<Racism/>
 								)}
 							/>
 						</Switch>

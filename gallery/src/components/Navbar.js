@@ -56,6 +56,8 @@ export default class Navbar extends React.Component {
                 <a class="black" href={'/'}>Entrance</a>
                 <a class="black" href={'/climate'}>1</a>
                 <a class="black" href={'/mental-health'}>2</a>
+                <a class="black" href={'/pandemic'}>3</a>
+                <a class="black" href={'/racism-government'}>4</a>
               </div>
             </div>
             <br></br>

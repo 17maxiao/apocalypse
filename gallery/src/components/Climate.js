@@ -27,10 +27,10 @@ export default class Climate extends React.Component {
         {link:"", type:"text", name:"Svalbard, 79.75º North: Pack Ice II, State I", artist:"Megan Broughton (she/her)", year:"2020", med:"Etching: softground, hardground, waterbite aquatint", dsc:"Pack Ice I functions as an elegiac, melancholy image."},
         {link: meghan2, type:"image", name:"", artist:"", year:"", med:"", dsc:""},
         {link:"", type:"text", name:"Excerpts from (o) decompose", artist:"Tatiana Borie (they/them)", year:"2020", med:"Poetry", dsc:"Borie’s work (o) decompose describes the narrator’s desire to reunite their body with the earth, ultimately ending their life in the process. Though initially the work seems to primarily deal with the ending of life, (o) decompose does not seek to focus on this. Providing no relevant motive for why the narrator would wish to depart from the material world, instead the work examines the detrimental effects that leaving one’s body behind could do to the environment. Contrasting imagery of the lush greenery with the industrial landscape of New York City, Borie subtly points out ways human beings have encroached on the natural world. The obsession to find the perfect spot, to prepare the body just right also sees Borie drawing attention to the ways that participation in industrial production can continue to disturb nature even after death. While part of a larger work, the excerpts shown here demonstrate the initial longing to commit such a decisive act, the desire to do so in as natural a way as possible, and the actual result of the act itself."},
-        {link: tatiana1, type:"poem", name:"", artist:"", year:"", med:"", dsc:""},
-        {link: tatiana2, type:"poem", name:"", artist:"", year:"", med:"", dsc:""},
-        {link: tatiana3, type:"poem", name:"", artist:"", year:"", med:"", dsc:""},
-        {link: "/mental-health", type:"link", name:"Mental Health", artist:"", year:"", med:"", dsc:""},
+        {link: tatiana1, type:"poetry", name:"", artist:"", year:"", med:"", dsc:""},
+        {link: tatiana2, type:"poetry", name:"", artist:"", year:"", med:"", dsc:""},
+        {link: tatiana3, type:"poetry", name:"", artist:"", year:"", med:"", dsc:""},
+        {link: "/mental-health", type:"link", name:"MENTAL HEALTH", artist:"", year:"", med:"", dsc:""},
       ],
     }
   }
