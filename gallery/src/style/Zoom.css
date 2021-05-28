@@ -1,24 +1,28 @@
 figure {
-    width: 600px;
-    background-repeat: no-repeat;
-  }
+  max-width: 100%;
+  background-repeat: no-repeat;
+}
+
+figure:hover img {
+  opacity: 0;
+}
+
+.gallery-img {
+  display: block;
+  align-content: center;
+  max-width: auto;
+  height: 550px;
+  padding-right: 100px;
+  padding-left: 100px;
+  pointer-events: none;
+}
   
-  figure:hover img {
-    opacity: 0;
-  }
-  
-  img {
-    display: block;
-    width: 100%;
-    pointer-events: none;
-  }
-  
-  #root {
-    /* display: flex; */
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100vw;
-  }
+#root {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
   
   

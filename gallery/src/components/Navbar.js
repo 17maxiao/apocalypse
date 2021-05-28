@@ -1,6 +1,7 @@
 import React from 'react'
-import ScrollText from 'react-scroll-text'
-import '../style/Navbar.css';
+// import ScrollText from 'react-scroll-text'
+import '../style/General.css'
+import logo from '../images/logoheader.png'
 
 
 export default class Navbar extends React.Component {
@@ -14,13 +15,13 @@ export default class Navbar extends React.Component {
 
   render() {    
     return (
-        <div className="Navbar">
+        <div >
             <br></br>
             <br></br>
             <br></br>
-            <h1>apocalypse</h1>
-            <h4> the last gallery in the world as we know it</h4>
-            <ScrollText><h5>the end of the world the end of the world the end of the world the end of the world 
+            <img class="logo-img" src={logo}></img>
+            <br></br>
+            {/* <ScrollText><h5>the end of the world the end of the world the end of the world the end of the world 
             the end of the world the end of the world the end of the world the end of the world the end of the world the end of the world
             the end of the world the end of the world the end of the world the end of the world the end of the world the end of the world
             the end of the world the end of the world the end of the world the end of the world the end of the world the end of the world 
@@ -49,7 +50,16 @@ export default class Navbar extends React.Component {
             the end of the world the end of the world the end of the world the end of the world the end of the world the end of the world
             the end of the world the end of the world the end of the world the end of the world the end of the world the end of the world
             the end of the world the end of the world the end of the world the end of the world the end of the world the end of the world 
-            </h5></ScrollText>
+            </h5></ScrollText> */}
+            <div class="topnav">
+              <div class="topnav-centered">
+                <a class="black" href={'/'}>Entrance</a>
+                <a class="black" href={'/climate'}>1</a>
+              </div>
+            </div>
+            <br></br>
+            <br></br>
+            <br></br>
         </div>
     );
   }

@@ -22,7 +22,7 @@ class Zoom extends Component {
 
   render = () =>
     <figure onMouseMove={this.handleMouseMove} style={this.state}>
-      <img src={this.state.src} />
+      <img class="gallery-img" src={this.state.src} />
     </figure>
 }
 
