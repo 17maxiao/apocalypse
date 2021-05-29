@@ -12,7 +12,7 @@ figure:hover img {
   align-content: center;
   max-width: auto;
   height: 550px;
-  padding-right: 100px;
+  padding-right: 50px;
   padding-left: 100px;
   pointer-events: none;
 }

@@ -18,7 +18,11 @@ p {
     width: 70vw;
     margin-left: auto;
     margin-right: auto;
-    font-size: 130%;
+    font-size: 100%;
+}
+
+.large-text {
+    font-size: 130%
 }
 
 /* navbar */

@@ -12,6 +12,7 @@ import Mental from './Mental.js';
 import Pandemic from './Pandemic.js';
 import Racism from './Racism.js';
 import LGBTQ from './LGBTQ.js';
+import Outpost from './Outpost.js';
 
 
 export default class App extends React.Component {
@@ -61,6 +62,13 @@ export default class App extends React.Component {
 								path="/lgbtq-gender"
 								render={() => (
 									<LGBTQ/>
+								)}
+							/>
+							<Route
+								exact
+								path="/outpost"
+								render={() => (
+									<Outpost/>
 								)}
 							/>
 						</Switch>

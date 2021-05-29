@@ -1,7 +1,7 @@
 .zoom {
   align-content: center;
   max-width: auto;
-  max-height: 600px;
+  max-height: 450px;
   padding-right: 100px;
   padding-left: 100px;
 }
@@ -9,7 +9,7 @@
 .poetry-img {
   align-content: center;
   max-width: auto;
-  max-height: 600px;
+  max-height: 450px;
   padding-right: 100px;
   padding-left: 100px;
 }
@@ -23,6 +23,7 @@
   width: 100%;
   pointer-events: none;
 }
+
 .video {
   padding: 0;
   max-width: 640px; 
@@ -30,20 +31,27 @@
 
 .text-container {
   max-width: 500px;
-  padding-left: 30vw;
-  padding-right: 40vw;
+  padding-left: 10vw;
+  padding-right: 15vw;
 }
 
-.title-container {
+.entrance-container {
   max-width: 500px;
   padding-left: 30vw;
   padding-right: 70vw;
   white-space: nowrap
 }
 
+.title-container {
+  max-width: 500px;
+  padding-left: 10vw;
+  padding-right: 15vw;
+  white-space: nowrap
+}
+
 .end-container {
   max-width: 500px;
-  padding-left: 20vw;
+  padding-left: 40vw;
   padding-right: 10vw;
   white-space: nowrap
 }

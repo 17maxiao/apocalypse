@@ -11,7 +11,7 @@ export default class Home extends React.Component {
     return (
       <div className="home-bg">
         <Navbar></Navbar>
-        <p class="white">
+        <p class="white large-text">
           Welcome to <em>the Apocalypse: Here and Now</em>, a virtual exhibition. 
           <br></br>
           <br></br>

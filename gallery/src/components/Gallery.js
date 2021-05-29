@@ -4,7 +4,7 @@ import HorizontalScroller from 'react-horizontal-scroll-container';
 import "../style/Gallery.css";
 import "../style/General.css";
 
-const MenuItem = ({ type, name, artist, year, dsc, med, link }) => {
+const MenuItem = ({ type, name, artist, year, dsc, materials, link }) => {
   if (type === "image") {
     return <div>
       <Zoom src={link}></Zoom>
@@ -15,22 +15,22 @@ const MenuItem = ({ type, name, artist, year, dsc, med, link }) => {
     </div>
   } else if (type === "video/mp4" && link.includes("https://www.youtube.com/embed/")) {
     return <div>
-    <iframe width="888px" height="550px" src={link} 
+    <iframe width="800px" height="450px" src={link} 
     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
     allowfullscreen></iframe>
   </div>;
 
   } else if (type === "text") {
     return <div className="text-container">
-      <h1>{artist}</h1>
-      <h2>{name}</h2>
-      <h3>{year}</h3>
-      <h4><em>{med}</em></h4>
-      <p>{dsc}</p>
+      <h1 class="title-container">{artist}</h1>
+      <h2 class="title-container">{name}</h2>
+      <h3 class="title-container">{year}</h3>
+      <h4 class="title-container"><em>{materials}</em></h4>
+      <p class="text-container">{dsc}</p>
     </div>
   } else if (type ==="title") {
     return <div>
-      <div className="title-container">
+      <div className="entrance-container">
         <h1 class="center">{name}</h1>
         <h2 class="center"><em>Scroll down to enter the gallery</em></h2>
         <br></br>
@@ -72,7 +72,7 @@ class Gallery extends Component {
         <HorizontalScroller invert sensibility={30}>
         {this.state.list.map((el) => (
           <div className="gallery-item">
-            <MenuItem key={el.link} type={el.type} name={el.name} artist={el.artist} year={el.year} dsc={el.dsc} link={el.link} />
+            <MenuItem key={el.link} type={el.type} name={el.name} artist={el.artist} year={el.year} dsc={el.dsc} link={el.link} materials={el.materials}/>
           </div>
         ))}
         </HorizontalScroller>
