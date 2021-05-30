@@ -2,6 +2,9 @@ import React from 'react'
 // import ScrollText from 'react-scroll-text'
 import '../style/General.css'
 import logo from '../images/logoheader.png'
+import {
+  Link
+} from "react-router-dom";
 
 
 export default class Navbar extends React.Component {
@@ -19,7 +22,7 @@ export default class Navbar extends React.Component {
             <br></br>
             <br></br>
             <br></br>
-            <img class="logo-img" src={logo}></img>
+            <Link to={'/'}><img class="logo-img" src={logo}/></Link>
             <br></br>
             {/* <ScrollText><h5>the end of the world the end of the world the end of the world the end of the world 
             the end of the world the end of the world the end of the world the end of the world the end of the world the end of the world
